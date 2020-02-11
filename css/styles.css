@@ -4,23 +4,24 @@ body {
   font-family: calibri, sans-serif;
   background-color: #1d1f2c;
   color: #d1d4e5;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h1 {
-  font-family: 'Caveat', cursive;
+  font-family: "Caveat", cursive;
   color: #b1d4e5;
   font-size: 4rem;
 }
 
-h2, h3 {
+h2,
+h3 {
   color: #b1d4e5;
 }
 
 p {
-  max-width: 65%;
   margin: 30px auto;
   color: #ddd;
+  line-height: 2;
 }
 
 .subtitle {
@@ -46,7 +47,7 @@ hr {
 .top-cloud {
   position: absolute;
   top: 50px;
-  right: 600px;
+  right: 25%;
 }
 
 .bottom-cloud {
@@ -58,7 +59,32 @@ hr {
   top: 4px;
 }
 
-.bottom-para {
+.my-pic {
+  margin: 50px 0 20px 0;
+  border-radius: 100%;
+  width: 300px;
+}
+
+.icons {
+  width: 150px;
+}
+
+.skill-row {
+  width: 35%;
+  display: inline-block;
+  margin: 50px 0 30px 0;
+  vertical-align: top;
+}
+
+.intro-p {
+  width: 40%;
+}
+
+.skill-p {
+  width: 75%;
+}
+
+.bottom-p {
   padding-bottom: 40px;
 }
 
